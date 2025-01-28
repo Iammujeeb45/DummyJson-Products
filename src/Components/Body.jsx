@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Loader from "./Loader";
 import Sidebar from "./Sidebar";
 import { useDispatch, useSelector } from "react-redux";
-import { decrement, increment } from "../Store/slice";
+import { decrement, increment } from "../Store/Slice";
 
 function Products() {
   const [products, setProducts] = useState([]);
